@@ -1,0 +1,52 @@
+.markdown {
+  @apply text-lg leading-relaxed;
+}
+
+.markdown p,
+.markdown ul,
+.markdown ol,
+.markdown blockquote {
+  @apply my-6;
+}
+
+.markdown ul {
+  @apply list-disc pl-10
+}
+
+.markdown ol {
+  @apply list-decimal pl-10
+}
+
+.markdown h2 {
+  @apply text-3xl mt-12 mb-4 leading-snug font-bold;
+}
+
+.markdown h3 {
+  @apply text-2xl mt-8 mb-4 leading-snug font-bold;
+}
+
+.markdown a {
+  @apply text-blue-500
+}
+
+.markdown a:hover {
+  @apply text-blue-800
+}
+
+.markdown code {
+  @apply bg-gray-200
+}
+
+.markdown pre > code {
+  @apply text-base;
+  background: #282a36;
+}
+
+.markdown blockquote > p {
+  @apply bg-gray-200 italic p-2;
+  border-left: 3px solid #ccc;
+}
+
+.markdown img {
+  cursor: pointer;
+}

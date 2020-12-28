@@ -1,0 +1,3 @@
+User-agent: * Disallow:
+Sitemap: https://your.site/sitemap.xml // TODO replace this
+

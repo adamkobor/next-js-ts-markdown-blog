@@ -1,0 +1,7 @@
+.env
+.now
+.next
+.idea
+node_modules
+public/rss.xml
+public/sitemap.xml
